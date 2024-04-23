@@ -1,5 +1,10 @@
-This simple program is supposed to help user with managing single disk platforms.
-The end result program should be able to:
-Display disk usage and size
-Button to restart system
-Button to free up space, deleting files from common temp folders
+FreeSpace v2.0
+
+This program helps you monitor your disk space and provides options to restart your PC or delete temporary files.
+
+Features:
+
+Displays remaining disk space on the C drive.
+Provides a visual progress bar with color indication based on remaining space.
+Allows restarting your PC. (confirmation required)
+Offers the option to delete temporary files from the common Temp folders. (confirmation required)
