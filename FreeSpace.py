@@ -37,7 +37,7 @@ def restart_pc():
 
 # Function to delete temporary files from PC
 def delete_temp_files():
-  folders = ("C:\History", "C:\Temp", "C:\Testing\FrameworkBuilds\MultiTester", "C:\Windows\Temp")
+  folders = ("REDACTED", "REDACTED", "REDACTED", "REDACTED")
   if messagebox.askquestion("Delete Confirmation", "Are you sure you want to delete temporary files?") == "yes":
     for folder in folders:
       try:
