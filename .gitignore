@@ -1,1 +1,6 @@
 realpaths.txt
+FreeSpace.spec
+FreeSpace.zip
+build/FreeSpace/FreeSpace.exe
+build
+.vscode
