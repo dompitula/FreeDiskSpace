@@ -4,3 +4,4 @@ FreeSpace.zip
 build/FreeSpace/FreeSpace.exe
 build
 .vscode
+cleanTempFiles.bat

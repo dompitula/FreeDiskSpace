@@ -10,7 +10,7 @@ target = Executable(
 # Create the setup object
 setup(
     name="FreeSpace Manager",
-    version="2.0",
+    version="2.1",
     description="This program helps you monitor your disk space and provides options to restart your PC or delete temporary files.",
     executables = [target]
 )

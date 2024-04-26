@@ -37,20 +37,9 @@ def restart_pc():
 
 # Function to delete temporary files from PC
 def delete_temp_files():
-  folders = ("REDACTED", "REDACTED", "REDACTED", "REDACTED")
   if messagebox.askquestion("Delete Confirmation", "Are you sure you want to delete temporary files?") == "yes":
-    for folder in folders:
-      try:
-        for filename in os.listdir(folder):
-          file_path = os.path.join(folder, filename)
-          try:
-            if os.path.isfile(file_path):
-              os.unlink(file_path)
-          except Exception as e:
-            print("Error deleting file: ",filename, e) 
-        print("Temporary files deleted successfuly.")
-      except Exception as e:
-        print("Error deleting temporary files: ", e)
+    filePath = "cleanTempFiles.bat"
+    subprocess.run([filePath])
 
 # Create the main window
 window = tk.Tk()
